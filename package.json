@@ -1,0 +1,40 @@
+{
+  "name": "discord-webhook-wrapper",
+  "version": "1.0.0",
+  "description": "A very simple wrapper for creating a discord.js `WebhookClient` object",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava && tsd",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knutkirkhorn/discord-webhook-wrapper.git"
+  },
+  "keywords": [
+    "discord",
+    "webhook"
+  ],
+  "author": "Knut Kirkhorn",
+  "type": "module",
+  "exports": "./index.js",
+	"types": "./index.d.ts",
+	"engines": {
+		"node": ">=14.16"
+	},
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/knutkirkhorn/discord-webhook-wrapper/issues"
+  },
+  "homepage": "https://github.com/knutkirkhorn/discord-webhook-wrapper#readme",
+  "devDependencies": {
+    "ava": "^4.3.0",
+    "eslint": "^8.17.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "tsd": "^0.21.0"
+  },
+  "peerDependencies": {
+    "discord.js": ">=13.0.0"
+  }
+}
