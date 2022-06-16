@@ -20,7 +20,7 @@
   "exports": "./index.js",
   "types": "./index.d.ts",
   "engines": {
-    "node": ">=14.16"
+    "node": ">=16.9"
   },
   "license": "MIT",
   "bugs": {
