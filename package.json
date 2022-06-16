@@ -18,10 +18,10 @@
   "author": "Knut Kirkhorn",
   "type": "module",
   "exports": "./index.js",
-	"types": "./index.d.ts",
-	"engines": {
-		"node": ">=14.16"
-	},
+  "types": "./index.d.ts",
+  "engines": {
+    "node": ">=14.16"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/knutkirkhorn/discord-webhook-wrapper/issues"
@@ -29,6 +29,7 @@
   "homepage": "https://github.com/knutkirkhorn/discord-webhook-wrapper#readme",
   "devDependencies": {
     "ava": "^4.3.0",
+    "discord.js": "^13.8.0",
     "eslint": "^8.17.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0",
