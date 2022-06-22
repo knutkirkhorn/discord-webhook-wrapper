@@ -1,6 +1,6 @@
 {
   "name": "discord-webhook-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A very simple wrapper for creating a discord.js `WebhookClient` object",
   "main": "index.js",
   "scripts": {
