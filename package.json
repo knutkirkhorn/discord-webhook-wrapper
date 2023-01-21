@@ -7,6 +7,10 @@
     "test": "ava && tsd",
     "lint": "eslint ."
   },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/knutkirkhorn/discord-webhook-wrapper.git"
