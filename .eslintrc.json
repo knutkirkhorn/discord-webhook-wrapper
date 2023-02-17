@@ -5,10 +5,12 @@
     },
     "extends": [
         "eslint:recommended",
-        "airbnb-base"
+        "airbnb-base",
+        "plugin:import/recommended",
+        "plugin:unicorn/recommended"
     ],
     "parserOptions": {
-        "ecmaVersion": 2022,
+        "ecmaVersion": 2023,
         "sourceType": "module"
     },
     "rules": {
