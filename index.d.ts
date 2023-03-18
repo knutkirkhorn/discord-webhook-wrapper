@@ -1,18 +1,18 @@
 import {WebhookClient} from 'discord.js';
 
 export type WebhookConfig = {
-    /**
-    URL to the Discord Webhook containing both the ID and the token.
-    */
-    readonly discordWebhookUrl?: string;
-    /**
-    ID to the Discord Webhook. Needs to be used together with the token.
-    */
-    readonly discordWebhookId?: string;
-    /**
-    Token to the Discord Webhook. Needs to be used together with the ID.
-    */
-    readonly discordWebhookToken?: string;
+	/**
+	URL to the Discord Webhook containing both the ID and the token.
+	*/
+	readonly discordWebhookUrl?: string;
+	/**
+	ID to the Discord Webhook. Needs to be used together with the token.
+	*/
+	readonly discordWebhookId?: string;
+	/**
+	Token to the Discord Webhook. Needs to be used together with the ID.
+	*/
+	readonly discordWebhookToken?: string;
 };
 
 /**
