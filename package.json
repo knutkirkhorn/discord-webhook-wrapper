@@ -34,11 +34,11 @@
 	"devDependencies": {
 		"ava": "^4.3.0",
 		"discord.js": "^13.8.0",
-		"eslint": "^8.17.0",
+		"eslint": "^8.40.0",
 		"eslint-config-airbnb-base": "^15.0.0",
 		"eslint-plugin-ava": "^14.0.0",
 		"eslint-plugin-import": "^2.26.0",
-		"eslint-plugin-unicorn": "^45.0.2",
+		"eslint-plugin-unicorn": "^47.0.0",
 		"tsd": "^0.21.0"
 	},
 	"peerDependencies": {
