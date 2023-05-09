@@ -1,4 +1,3 @@
-// eslint-disable-next-line import/no-unresolved
 import test from 'ava';
 import {WebhookClient} from 'discord.js';
 import discordWebhookWrapper from './index.js';

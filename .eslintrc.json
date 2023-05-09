@@ -26,6 +26,7 @@
 		"no-console": "off",
 		"max-len": "off",
 		"no-plusplus": "off",
-		"import/extensions": ["error", "always"]
+		"import/extensions": ["error", "always"],
+		"import/no-unresolved": "off"
 	}
 }
