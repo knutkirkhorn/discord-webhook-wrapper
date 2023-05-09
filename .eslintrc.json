@@ -6,6 +6,7 @@
 	"extends": [
 		"eslint:recommended",
 		"airbnb-base",
+		"plugin:ava/recommended",
 		"plugin:import/recommended",
 		"plugin:unicorn/recommended"
 	],
