@@ -30,4 +30,6 @@ const webhookClientUsingIdAndToken = discordWebhookWrapper({discordWebhookId: '1
 // ...
 ```
 */
-export default function discordWebhookWrapper(webhookConfig: WebhookConfig): WebhookClient;
+export default function discordWebhookWrapper(
+	webhookConfig: WebhookConfig,
+): WebhookClient;

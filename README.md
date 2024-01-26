@@ -13,10 +13,15 @@ npm install discord-webhook-wrapper
 ```js
 import discordWebhookWrapper from 'discord-webhook-wrapper';
 
-const webhookClient = discordWebhookWrapper({discordWebhookUrl: 'https://discord.com/api/webhooks/1337/example-token'});
+const webhookClient = discordWebhookWrapper({
+	discordWebhookUrl: 'https://discord.com/api/webhooks/1337/example-token',
+});
 // ...
 
-const webhookClientUsingIdAndToken = discordWebhookWrapper({discordWebhookId: '1337', discordWebhookToken: 'example-token'});
+const webhookClientUsingIdAndToken = discordWebhookWrapper({
+	discordWebhookId: '1337',
+	discordWebhookToken: 'example-token',
+});
 // ...
 ```
 
